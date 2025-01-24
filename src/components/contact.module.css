@@ -1,0 +1,55 @@
+/*COLORS*/
+:root{
+    --BTNCOLOR : #000;
+    --BTNHOVER: rgb(194, 70, 86);
+    --BTNACTIVE:rgba(168, 146, 146, 0.884);
+}
+
+/*HOME*/
+.homeButton{
+    color: var(--BTNCOLOR);
+}
+
+.homeButton:hover{
+    color: var(--BTNHOVER);
+}
+
+.homeButton:active{
+    color: var(--BTNACTIVE);
+}
+
+/*HOURS*/
+.hoursButton{
+    color: var(--BTNCOLOR);
+}
+
+.hoursButton:hover{
+    color: var(--BTNHOVER);
+}
+.hoursButton:active{
+    color: var(--BTNACTIVE);
+}
+
+/*ABOUT*/
+.aboutButton {
+    color: var(--BTNCOLOR);
+}
+.aboutButton:hover{
+    color:var(--BTNHOVER);
+}
+.aboutButton:active{
+    color: var(--BTNACTIVE);
+}
+
+
+/* MENU */
+.menuButton{
+    color: var(--BTNCOLOR);
+}
+.menuButton:hover{
+    color: var(--BTNHOVER);
+}
+.menuButton:active{
+    color: var(--BTNACTIVE);
+}
+
