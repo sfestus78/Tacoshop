@@ -26,12 +26,11 @@ export const Hours = () => {
           <h1 className="header__h1"> LIttle Tacos Shop</h1>
           <nav className="header__nav">
             <ul className="header__ul">
-              <span className="BTN">
+              
                 <div onClick={() => goHome()} className={styles.homeButton}>Home</div>
                 <div onClick={() => goMenu()} className={styles.menuButton}>Menu</div>        
                 <div onClick={() => goAbout()} className={styles.hoursButton}>About</div>
                 <div onClick={() => goContact()} className={styles.contactButton}>Contact</div>
-              </span>
               
             </ul>
           </nav>
