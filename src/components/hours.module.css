@@ -18,7 +18,7 @@
     color: var(--BTNACTIVE);
 }
 
-/*HOURS*/
+/*MENU*/
 .menuButton{
     color: var(--BTNCOLOR);
 }
@@ -42,13 +42,13 @@
 }
 
 /*CONTACT*/
-.contactbutton{
+.contactButton{
     color:var(--BTNCOLOR);
 }
-.contactbutton:hover{
+.contactButton:hover{
     color: var(--BTNHOVER);
 }
-.contactbutton:active{
+.contactButton:active{
     color: var(--BTNACTIVE);
 }
 

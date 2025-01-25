@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "./hours.module.css"
+import styles from "./contact.module.css"
 import { useNavigate } from "react-router-dom";
 
 export const Contact = () => {
@@ -27,7 +27,7 @@ export const Contact = () => {
                 <div onClick={() => goHome()} className={styles.homeButton}>Home</div>
                 <div onClick={() => goMenu()} className={styles.menuButton}>Menu</div>
                 <div onClick={() => goHours()} className={styles.hoursButton}>Hours</div>
-                <div onClick={() => goAbout()} className={styles.contact}>About</div>
+                <div onClick={() => goAbout()} className={styles.aboutButton}>About</div>
             </ul>
             </nav>
         </header>
@@ -36,8 +36,8 @@ export const Contact = () => {
             src="img/tacos_close_up_1000x649.png"
             title="tacos closeup"
             alt="ready to eat tacos"
-            width={1000}
-            height={649}
+            width="1000"
+            height="649"
             />
             <figure>
             <figcaption className="offscreen">Tacos closeup </figcaption>

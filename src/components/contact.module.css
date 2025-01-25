@@ -18,6 +18,17 @@
     color: var(--BTNACTIVE);
 }
 
+/* MENU */
+.menuButton{
+    color: var(--BTNCOLOR);
+}
+.menuButton:hover{
+    color: var(--BTNHOVER);
+}
+.menuButton:active{
+    color: var(--BTNACTIVE);
+}
+
 /*HOURS*/
 .hoursButton{
     color: var(--BTNCOLOR);
@@ -42,14 +53,5 @@
 }
 
 
-/* MENU */
-.menuButton{
-    color: var(--BTNCOLOR);
-}
-.menuButton:hover{
-    color: var(--BTNHOVER);
-}
-.menuButton:active{
-    color: var(--BTNACTIVE);
-}
+
 

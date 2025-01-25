@@ -18,6 +18,19 @@
     color: var(--BTNACTIVE);
 }
 
+/* MENU */
+.menuButton{
+    color: var(--BTNCOLOR);
+}
+.menuButton:hover{
+    color: var(--BTNHOVER);
+}
+.menuButton:active{
+    color: var(--BTNACTIVE);
+}
+
+
+
 /*HOURS*/
 .hoursButton{
     color: var(--BTNCOLOR);
@@ -31,24 +44,13 @@
 }
 
 /*CONTACT*/
-.contactbutton{
+.contactButton{
     color:var(--BTNCOLOR);
 }
-.contactbutton:hover{
+.contactButton:hover{
     color: var(--BTNHOVER);
 }
-.contactbutton:active{
-    color: var(--BTNACTIVE);
-}
-
-/* MENU */
-.menuButton{
-    color: var(--BTNCOLOR);
-}
-.menuButton:hover{
-    color: var(--BTNHOVER);
-}
-.menuButton:active{
+.contactButton:active{
     color: var(--BTNACTIVE);
 }
 

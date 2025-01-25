@@ -1,8 +1,6 @@
 import React from "react";
 import styles from "./hours.module.css"
 import { useNavigate } from "react-router-dom";
-
-// import {Link } from "react-router-dom";
 import "../index.css";
 
 export const Hours = () => {
@@ -29,7 +27,7 @@ export const Hours = () => {
               
                 <div onClick={() => goHome()} className={styles.homeButton}>Home</div>
                 <div onClick={() => goMenu()} className={styles.menuButton}>Menu</div>        
-                <div onClick={() => goAbout()} className={styles.hoursButton}>About</div>
+                <div onClick={() => goAbout()} className={styles.aboutButton}>About</div>
                 <div onClick={() => goContact()} className={styles.contactButton}>Contact</div>
               
             </ul>
@@ -41,8 +39,8 @@ export const Hours = () => {
               src="img/tacos_tray_1000x667.png"
               alt="tacos tray"
               title="tacos and drink"
-              width={1000}
-              height={667}
+              width="1000"
+              height="667"
             />
             <figcaption className="offscreen">Tacos Tray</figcaption>
           </figure>
